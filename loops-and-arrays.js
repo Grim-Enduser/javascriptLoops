@@ -12,6 +12,12 @@
 //     }
 // } console.log(names)
 
+for (let i = 0; i < names.length; i++) {
+    names[i]=names[i] + "je"; {
+
+    }
+} console.log(names)
+
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
@@ -41,6 +47,19 @@
 //     numbers[i]=numbers[i] * multiplier;
 // }
 // console.log(numbers)
+
+
+for (let i = 0; i < numbers.length; i++){
+    let multiplier;
+    if (i % 2 === 0) {
+        multiplier = 2;
+    }
+    else {
+        multiplier = 3;
+    }
+    numbers[i]=numbers[i] * multiplier;
+}
+console.log(numbers)
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
