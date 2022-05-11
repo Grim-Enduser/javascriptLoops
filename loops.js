@@ -5,10 +5,10 @@
 // Hoera!
 // Hoera!
 // ==========================================
-
-
-
-
+//
+// for (let i = 0; i <=4; i++){
+//     console.log("Hoera!");
+// }
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
 // Verwachte uitkomsten:
@@ -17,9 +17,18 @@
 // loop...
 // loop...
 // klaar!
- // ==========================================
 
-
+// for (let i = 0; console.log('checking', i), i <= 3; console.log('increment'), i++) {
+//     if(i === 1) {
+//         continue;
+//     }
+//     console.log('loop', i);
+//     // if (i === 3 ) {
+//     //     console.log("klaar!")
+//     // }
+// }
+//
+// console.log("klaar!")
 
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
@@ -30,6 +39,31 @@
 // 3 is oneven
 // .... etc.
 // 15 is oneven
+
+// for (let i = 0; i < 16; i++ ){
+//     if (i === 0) {
+//         console.log(x + " is even");
+//     }
+//     else if (i % 2 === 0) {
+//         console.log(x + " is even");
+//     }
+//     else {
+//         console.log(x + " is odd");
+//     }
+// }
+
+// for (var x=0; x<=15; x++) {
+//     if (x === 0) {
+//         console.log(x +  " is even");
+//     }
+//     else if (x % 2 === 0) {
+//         console.log(x + " is even");
+//     }
+//     else {
+//         console.log(x + " is odd");
+//     }
+// }
+
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over. Google daarom eens naar 'mdn webdocs remainder operator'.
 // ==========================================
@@ -52,3 +86,8 @@
 // >> 9
 // ==========================================
 
+for (let i = 0; i < 10; i++){
+    if (i => 3){
+        console.log("> " + i);
+    }
+}
